@@ -7,3 +7,4 @@ For additional security, we'll deploy the servers in private subnets. The server
 <ul>Each public subnet contains a NAT ggateway & a load balancer node.</ul>
 <ul>The servers run in the private subnets and are launched & terminated by using an Auto Scaling group, and receive traffic from the load balancer.</ul>
 <ul>The servers can connect to the internet by using the NAT gateway.</ul>
+<h3>VPC with public-private subnets in Production</h3>
